@@ -1,4 +1,4 @@
-package goldmark_mattermost
+package goldmark_extended
 
 import (
 	"github.com/yuin/goldmark"

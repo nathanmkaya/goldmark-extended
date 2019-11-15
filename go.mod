@@ -1,4 +1,4 @@
-module github.com/nathanmkaya/goldmark-mattermost
+module github.com/nathanmkaya/goldmark-extended
 
 go 1.13
 

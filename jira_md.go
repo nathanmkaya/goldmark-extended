@@ -1,1 +1,1 @@
-package goldmark_mattermost
+package goldmark_extended
