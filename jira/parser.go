@@ -10,4 +10,5 @@ var Jira = &jira{}
 func (j *jira) Extend(m goldmark.Markdown) {
 	Heading.Extend(m)
 	Strong.Extend(m)
+	Citation.Extend(m)
 }
