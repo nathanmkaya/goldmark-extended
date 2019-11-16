@@ -1,4 +1,4 @@
-package goldmark_extended
+package mattermost
 
 import (
 	"github.com/yuin/goldmark"
@@ -8,7 +8,7 @@ import (
 type mattermost struct {
 }
 
-var MM  = &mattermost{}
+var MM = &mattermost{}
 
 func (mm *mattermost) Extend(md goldmark.Markdown) {
 	extension.Linkify.Extend(md)
